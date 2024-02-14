@@ -11,6 +11,46 @@
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <style>
+      .drink-image {
+        width: 90%;
+        height: auto;
+      }
+  
+      table {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+  
+      th,
+      td {
+        border: 1px solid black;
+        padding: 7px;
+        text-align: left;
+      }
+  
+      th {
+        background-color: skyblue;
+        color: palevioletred;
+      }
+  
+      tr:nth-child(even) {
+        background-color: palegoldenrod;
+      }
+  
+      tr:hover {
+        background-color: orange;
+      }
+  
+      .table-sm th,
+      .table-sm td {
+        padding: 4px;
+      }
+  
+      .table-striped tbody tr:nth-child(odd) {
+        background-color: grey;
+      }
+    </style>
 </head>
 <body>
 <h1>Have a cup with Sai Shivani Yashaswini</h1>
@@ -39,7 +79,7 @@
     <img src="apple fizz.jpg" alt="Apple Fizz" class="img-fluid drink-image">
   </div>
   <div class="col-sm-4">
-    <img src="Strawberry Milkshake.jpg" alt="Strawberry Milkshake" class="img-fluid drink-image">
+    <img src="download.jpg" alt="Strawberry Milkshake" class="img-fluid drink-image" >
   </div>
   <div class="col-sm-4">
     <img src="Tequila.jpg" alt="Tequila" class="img-fluid drink-image">
@@ -54,7 +94,7 @@
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="Strawberry Milkshake.jpg" alt="Strawberry Milkshake" class="img-thumbnail drink-image">
+        <img src="download.jpg" alt="Strawberry Milkshake" class="img-thumbnail drink-image">
       </div>
     </div>
     <div class="col-sm-4">
@@ -62,6 +102,58 @@
         <img src="Tequila.jpg" alt="Tequila" class="img-thumbnail drink-image">
       </div>
     </div>
+  </div>
+
+  <div class="container">
+    <caption>Letter Drink Star Name Fish Table</caption>
+    <table class="table table-striped table-hover table-sm">
+      <thead>
+        <tr>
+          <th scope="col">Letter</th>
+          <th scope="col">Drink</th>
+          <th scope="col">Star Name</th>
+          <th scope="col">Fish</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">P</th>
+          <td>Pineapple Juice</td>
+          <td>Proxima Centauri</td>
+          <td>Parrotfish</td>
+        </tr>
+        <tr>
+          <th scope="row">U</th>
+          <td>Unsweetened Iced Tea</td>
+          <td>Upsilon Andromedae</td>
+          <td>Unicornfish</td>
+        </tr>
+        <tr>
+          <th scope="row">T</th>
+          <td>Tea</td>
+          <td>Tau Ceti</td>
+          <td>Tigerfish</td>
+        </tr>
+        <tr>
+          <th scope="row">T</th>
+          <td>Tropical Fruit Punch</td>
+          <td>Thuban</td>
+          <td>Triggerfish</td>
+        </tr>
+        <tr>
+          <th scope="row">A</th>
+          <td>Avocado Smoothie</td>
+          <td>Aldebaran</td>
+          <td>Angelfish</td>
+        </tr>
+        <tr>
+          <th scope="row">S</th>
+          <td>Strawberry Milkshake</td>
+          <td>Sirius</td>
+          <td>Seahorse</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
 </body>
